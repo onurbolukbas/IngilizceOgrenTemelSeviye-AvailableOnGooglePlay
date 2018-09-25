@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sayilar">
+        <item>0-Zero</item>
+        <item>1-One</item>
+        <item>2-Two</item>
+        <item>3-Three</item>
+        <item>4-Four</item>
+        <item>5-Five</item>
+        <item>6-Six</item>
+        <item>7-Seven</item>
+        <item>8-Eight</item>
+        <item>9-Nine</item>
+        <item>10-Ten</item>
+        <item>11-Eleven</item>
+        <item>12-Twelve</item>
+        <item>13-Thirteen</item>
+        <item>14-Fourteen</item>
+        <item>15-Fifteen</item>
+        <item>16-Sixteen</item>
+        <item>17-Seventeen</item>
+        <item>18-Eighteen</item>
+        <item>19-Nineteen</item>
+        <item>20-Twenty</item>
+        <item>21-Twenty One</item>
+        <item> 22-Twenty Two</item>
+        <item>23-Twenty Three</item>
+        <item> 24-Twenty Four</item>
+        <item>25-Twenty Five</item>
+        <item>26-Twenty Six</item>
+        <item>27-Twenty Seven</item>
+        <item>28-Twenty Eight</item>
+        <item>29-Twenty Nine</item>
+        <item>30-Thirty</item>
+        <item>31-Thirty One</item>
+        <item>32-Thirty Two</item>
+        <item>33-Thirty Three</item>
+        <item>34-Thirty Four</item>
+        <item>35-Thirty Five</item>
+        <item>36-Thirty Six</item>
+        <item>37-Thirty Seven</item>
+        <item>38-Thirty Eight</item>
+        <item>39-Thirty Nine</item>
+        <item>40-Forty</item>
+        <item>41-Forty One</item>
+        <item>42-Forty Two</item>
+        <item>43-Forty Three</item>
+        <item>44-Forty Four</item>
+        <item>45-Forty Five</item>
+        <item>46-Forty Six</item>
+        <item>47-Forty Seven</item>
+        <item>48-Forty Eight</item>
+        <item>49-Forty Nine</item>
+        <item>50-Fifty</item>
+    </string-array>
+
+    <string-array name="renkler">
+        <item>Kırmızı-Red</item>
+        <item>Mavi-Blue</item>
+        <item>Sarı-Yellow</item>
+        <item>Yeşil-Green</item>
+        <item>Gri-Gray</item>
+        <item>Mor-Purple</item>
+        <item>Turuncu-Orange</item>
+        <item>Beyaz-White</item>
+        <item>Pembe-Pink</item>
+        <item>Kırmızı-Red</item>
+        <item>Siyah-Black</item>
+
+    </string-array>
+    <string-array name="hayvanlar">
+    <item>At-Horse</item>
+    <item>Eşek-Donkey</item>
+    <item>Kedi-Cat</item>
+    <item>Köpek-Dog</item>
+    <item>Kuş-Bird</item>
+    <item>Balık-Fish</item>
+    <item>Aslan-Lion</item>
+    <item>Kaplan-Tiger</item>
+    <item>Tilki-Fox</item>
+    <item>Fare-Mouse</item>
+    <item>Yılan-Snake</item>
+
+
+    </string-array>
+
+
+    <string-array name="meslekler">
+        <item>Muhasebeci-Accountant</item>
+        <item>Akrobat-Acrobat</item>
+        <item>Aktör-Actor</item>
+        <item>Aktris-Actress</item>
+        <item>Amiral-Admiral</item>
+        <item>Reklamcı-Advertisar</item>
+        <item>Ajan-Agent</item>
+        <item>Büyükelçi-Ambassador</item>
+        <item>Spiker-Announcer</item>
+        <item>Arkeolog-Archaeologist</item>
+        <item>Mimar-Architect</item>
+        <item>Yazar-Author</item>
+
+
+    </string-array>
+
+
+
+
+
+</resources>

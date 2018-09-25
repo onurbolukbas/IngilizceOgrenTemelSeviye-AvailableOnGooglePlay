@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cc6699"
+    tools:context="c.onurbolukbas.ingilizceogrentemelseviye.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardCornerRadius="10dp"
+            card_view:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@mipmap/colors" />
+
+                <TextView
+                    style="@style/Animation.AppCompat.Dialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Renkler Testine Başla"
+                    android:textAlignment="center"
+                    android:textColor="#ff0000"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <ImageButton
+            android:id="@+id/fab_1"
+            android:onClick="turClick"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="-30dp"
+            android:background="@drawable/selector_kirmizi"
+            android:elevation="12dp"
+            android:src="@android:drawable/ic_media_play" />
+
+
+
+
+
+
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardCornerRadius="10dp"
+            card_view:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@mipmap/numbers" />
+
+                <TextView
+                    style="@style/Animation.AppCompat.Dialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Sayılar Testine Başla"
+                    android:textAlignment="center"
+                    android:textColor="#61f70f"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <ImageButton
+            android:id="@+id/fab_2"
+            android:onClick="turClick"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="-30dp"
+            android:background="@drawable/selector_yesil"
+            android:elevation="12dp"
+            android:src="@android:drawable/ic_media_play" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardCornerRadius="10dp"
+            card_view:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@mipmap/animals1" />
+
+                <TextView
+                    style="@style/Animation.AppCompat.Dialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Hayvanlar Testine Başla"
+                    android:textAlignment="center"
+                    android:textColor="#1f57cf"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <ImageButton
+            android:id="@+id/fab_3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="turClick"
+            android:layout_gravity="end"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="-30dp"
+            android:background="@drawable/selector_blue"
+            android:elevation="12dp"
+            android:src="@android:drawable/ic_media_play" />
+
+
+
+
+
+
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardCornerRadius="10dp"
+            card_view:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@mipmap/meslekler" />
+
+                <TextView
+                    style="@style/Animation.AppCompat.Dialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Meslekler Testine Başla"
+                    android:textAlignment="center"
+                    android:textColor="#e7fa05"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <ImageButton
+            android:id="@+id/fab_4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="turClick"
+            android:layout_gravity="end"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="-30dp"
+            android:background="@drawable/selector_sari"
+            android:elevation="12dp"
+            android:src="@android:drawable/ic_media_play" />
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
