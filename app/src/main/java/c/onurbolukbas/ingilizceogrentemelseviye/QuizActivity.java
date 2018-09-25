@@ -289,13 +289,3 @@ public class QuizActivity extends AppCompatActivity {
     }//basariOraniHesapla() bitiş
 
 }//son blok
-
-/////////////////DÜZELTİLECEKLER////////////////
-
-//son şık sürekli aynı geliyor
-//dogru cevap iki şıkka gidebiliyor onu düzelt
-
-/////////////////EKLENECEKLER////////////////
-
-//tebrik mesajı
-//oyun bitimi alert dialog'da başarı oranı gösterimi
