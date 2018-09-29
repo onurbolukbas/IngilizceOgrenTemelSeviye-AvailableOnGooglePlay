@@ -66,6 +66,9 @@
         <item>Pembe-Pink</item>
         <item>Kırmızı-Red</item>
         <item>Siyah-Black</item>
+        <item>Lacivert-Navy</item>
+        <item>Koyu Mavi-Dark Blue</item>
+        <item>Kahverengi-Brown</item>
 
     </string-array>
     <string-array name="hayvanlar">
@@ -80,7 +83,14 @@
     <item>Tilki-Fox</item>
     <item>Fare-Mouse</item>
     <item>Yılan-Snake</item>
-
+        <item>Papağan-Parrot</item>
+        <item>Güvercin-Dove</item>
+        <item>İnek-Cow</item>
+        <item>Keçi-Goat</item>
+        <item>Tavuk-Chicken</item>
+        <item>Hindi-Turkey</item>
+        <item>Ördek-Duck</item>
+        <item>Tavşan-Rabbit</item>
 
     </string-array>
 
@@ -97,7 +107,13 @@
         <item>Spiker-Announcer</item>
         <item>Arkeolog-Archaeologist</item>
         <item>Mimar-Architect</item>
-        <item>Yazar-Author</item>
+        <item>Fırıncı-Baker</item>
+        <item>Bankacı-Baker</item>
+        <item>Kasap-Butcher</item>
+        <item>Marangoz-Carpenter</item>
+        <item>Aşçı-Cook</item>
+        <item>Tasarımcı-Designer</item>
+        <item>Mühendis-Engineer</item>
 
 
     </string-array>
