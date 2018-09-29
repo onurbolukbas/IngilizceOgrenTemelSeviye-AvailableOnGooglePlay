@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Ingilizce Ogren (Temel Seviye)</string>
     <string name="skor">10 Soruluk Testi %1$d cevap vererek tamamladınız. Doğru Cevap Oranınız %%%2$.02f</string>
+    <string name="reklam_kimligi">ca-app-pub-7458662136865510/2241020037</string>
 </resources>

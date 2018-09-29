@@ -99,6 +99,16 @@
             </LinearLayout>
 
         </LinearLayout>
+
     </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/reklam"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"></LinearLayout>
 
 </RelativeLayout>

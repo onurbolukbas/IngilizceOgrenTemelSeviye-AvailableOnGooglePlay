@@ -11,6 +11,11 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.daimajia.easing.linear.Linear;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -29,6 +34,7 @@ public class QuizActivity extends AppCompatActivity {
     private static TextView soruSayisi_tv;
     private static final int TOPLAM_SORU_SAYISI=10;
     private LinearLayout buttonContainer;
+    private AdView adView;
     private View.OnClickListener buttonDinleyici=new View.OnClickListener() {
         @Override
         public void onClick(View v) {
@@ -72,7 +78,7 @@ public class QuizActivity extends AppCompatActivity {
         soruSayisi_tv=(TextView)findViewById(R.id.soruSayi_tv);
         buttonContainer=(LinearLayout) findViewById(R.id.button_container);
         soruContainer=(RelativeLayout)findViewById(R.id.duyarlı_layout);
-
+        reklamiYukle();
         quizTur=getIntent().getIntExtra(MainActivity.QUIZ_KEY,9);
         switch (quizTur){
             case MainActivity.QUIZ_RENKLER:
@@ -103,6 +109,9 @@ public class QuizActivity extends AppCompatActivity {
                 }
                 break;
         }//switch-case bitiş
+
+
+
         soruSayisi_tv.setText((kacinciSoruda+1) + " / "+TOPLAM_SORU_SAYISI);
         setSoruListesi();
         setSoruMetni(kacinciSoruda);
@@ -113,7 +122,21 @@ public class QuizActivity extends AppCompatActivity {
             Button button=(Button)buttonContainer.getChildAt(satir);
             button.setOnClickListener(buttonDinleyici);
         }
+
     }//onCreate Bitiş
+
+    private void reklamiYukle() {
+        adView=new AdView(this);
+        adView.setAdSize(AdSize.BANNER);
+        adView.setAdUnitId(getString(R.string.reklam_kimligi));
+
+        LinearLayout layout=findViewById(R.id.reklam);
+        layout.addView(adView);
+
+        AdRequest adRequest=new AdRequest.Builder().addTestDevice(AdRequest.DEVICE_ID_EMULATOR).build();
+
+        adView.loadAd(adRequest);
+    }
 
     public void setSoruListesi(){ // genel listeden soru listesine random eleman çekiyorum contain ile de aynı değerin gelmemesini kontrol ediyorum
         String soru;
