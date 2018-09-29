@@ -12,8 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true">
+        android:layout_marginTop="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -25,11 +26,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:textAppearance="?android:attr/textAppearance"
                 android:text="1 / 10"
+                android:textAppearance="?android:attr/textAppearance"
                 android:textColor="#ffffff"
-                android:textStyle="bold"
-                />
+                android:textStyle="bold" />
 
             <RelativeLayout
                 android:id="@+id/duyarlı_layout"
@@ -65,9 +65,9 @@
                 <Button
                     android:layout_width="220dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:background="@drawable/renk_btn"
                     android:textColor="@color/colorWhite"
-                    android:layout_marginTop="10dp"
 
 
                     />
